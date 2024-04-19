@@ -1,0 +1,398 @@
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	
+	overflow-x:hidden;
+}
+
+
+
+.container1 h1{
+	font-size:30px;
+	 background: -webkit-linear-gradient(#000066,#0000cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: "Sixtyfour", sans-serif;
+	
+}
+
+.head{
+	
+	position:relative;
+	background-image:url("img/banner-archer.png");
+	background-size: 100% 100%;
+	top:100px;
+}
+
+.image1{
+	position:absolute;
+	top:250px;
+	left:50px;
+	height:300px;
+	width:200px;
+	animation:myani 1s infinite linear;
+}
+
+.about1{
+	
+	top:300px;
+	
+}
+.image2{
+	
+	position:absolute;
+	top:100px;
+	left:1000px;
+	width:300px;
+	height:200px;
+	animation:myani2 1s infinite linear;
+}
+
+	
+
+
+@keyframes myani{
+0%{left:50px;}
+
+100%{left:55px;}
+} 
+
+
+@keyframes myani2{
+0%{left:1000px;}
+
+100%{left:1005px;}
+} 
+.head h1{
+	
+	font-size:90px;
+	 background: -webkit-linear-gradient( #0033cc,#ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.chart3{
+font-size:50px;	
+	
+	
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.carousel-item img{
+	width:500px;
+	height:60vh;
+	
+	
+}
+
+.card1:hover .card-img-top{
+	
+transform: scale(1.2);
+	
+	
+}
+
+ .proj{
+	 
+	 height:500px;
+	  background-image:url("img/back.jpg");
+	background-size:100% 100%;
+	border-radius:30px;
+	position:relative;
+}
+
+.inner{
+	
+	position:absolute;
+	height:200px;
+	width:70%;
+left:200px;
+top:400px;
+background:opacity(0,0,0,0.9);
+
+display:flex;
+ justify-content:space-around;
+ align-items:center;
+ flex-wrap:wrap
+ 
+}
+
+.left{
+background:white;
+	height:150px;
+	width:350px;
+	border-radius:30px;
+	border:1px solid grey;
+	box-shadow:0 0 6px  grey;
+}
+
+.right{
+	height:150px;
+	border-radius:30px;
+	width:350px;
+	background:white;
+	border:1px solid grey;
+	box-shadow:0 0 6px  grey;
+}
+
+
+.choose:hover img{
+	
+	
+	
+	
+}
+
+.choose1:hover i{
+
+	
+	transform:scalex(2);
+	color:blue;
+}
+
+.card-hover{
+	
+transition: transform 0.3s ease; 
+	
+	
+}
+
+.card-hover:hover{
+	
+	 transform: scale(1.1);
+	
+}
+
+.hand{
+	
+	
+	position:relative;
+}
+.hand1{
+	
+
+	position:absolute;
+	left:-150px;
+	top:150px;
+	height:400px;
+	width:200px;
+	
+}
+
+.save{
+	
+	position:absolute;
+	left:500px;
+	top:150px;
+	height:100px;
+	width:100px;
+	
+	
+	
+}
+
+.offer{
+	background-image:url("img/right.png")
+	
+	
+}
+
+.card-body{
+	
+	position:relative;
+	
+}
+
+.smily{
+	
+	position:absolute;
+	top:10px;
+	left:250px;
+	animation:myani4 1s infinite ease-in-out;
+}
+@keyframes myani4{
+0%{top:10px;}
+
+100%{top:5px;}
+} 
+
+.contact-main{
+	background-image:url('img/blue.jpg');
+	
+	
+}
+
+
+.contact-inner{
+
+	border-radius:30px;
+	border:1px solid white;
+	width:300px;
+	top:100px;
+	left:100px;
+background-color:#495593;
+}
+
+
+.contact2{
+	border:1px solid white;
+	border-radius:40px;
+	background-color:#495593;
+	box-shadow:0 0 0 3px white
+	
+}
+
+.contact2 input{
+	 background-color: #26357F;
+	 
+        border: none
+	
+	
+	
+}
+
+.contact2 textarea{
+	 background-color: #26357F;
+        border: none;
+	
+	
+}
+
+
+footer h2{
+	font-size:30px;
+	 background: -webkit-linear-gradient(#000066,#0000cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: "Sixtyfour", sans-serif;
+	
+	
+}
+@media(max-width:900px){
+	
+	
+	.image img{
+		
+		
+		display:none;
+	}
+	
+	.image1{
+		
+		display:none;
+		
+		
+	}
+	
+	
+	image2{
+		
+		display:none;
+		
+	}
+	
+	.i3{
+		
+		margin:10px;
+		
+	}
+	
+	
+	.chart{
+		display:none;
+		
+		
+	}
+	
+.inner{
+	position:absolute;
+	left:90px;
+	
+}
+
+.left{
+	
+	margin:5px;
+	
+}	
+
+.hand1{
+	
+	display:none;
+	
+}
+.smily{
+	display:none;
+	
+}
+.save{
+	
+	display:none;
+	
+}
+	
+}
